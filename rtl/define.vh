@@ -1,0 +1,14 @@
+// alu fn
+`define ALU_FN_LEN 4
+`define ALU_FN_X    `ALU_FN_LEN'd0
+`define ALU_FN_ADD  `ALU_FN_LEN'd1
+`define ALU_FN_SUB  `ALU_FN_LEN'd2
+`define ALU_FN_AND  `ALU_FN_LEN'd3
+`define ALU_FN_OR   `ALU_FN_LEN'd4
+`define ALU_FN_XOR  `ALU_FN_LEN'd5
+`define ALU_FN_SLL  `ALU_FN_LEN'd6
+`define ALU_FN_SRL  `ALU_FN_LEN'd7
+`define ALU_FN_SRA  `ALU_FN_LEN'd8
+`define ALU_FN_SLT  `ALU_FN_LEN'd9
+`define ALU_FN_SLTU `ALU_FN_LEN'd10
+`define ALU_FN_JALR `ALU_FN_LEN'd11
